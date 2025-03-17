@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Insurance Co.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero d-flex align-items-center justify-content-center" id="home">
+            <div class="container text-center">
+                <h1>Protecting What Matters Most</h1>
+                <p class="lead">Your trusted partner for comprehensive insurance solutions since 2000.</p>
+                <a href="#services" class="btn btn-primary btn-lg">Explore Our Coverage Options</a>
+            </div>
+        </section>
+
+        <section class="services py-5" id="services">
+            <div class="container">
+                <h2 class="text-center mb-5">Our Insurance Solutions</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-car fa-3x mb-3 text-primary"></i>
+                                <h5 class="card-title">Auto Insurance</h5>
+                                <p class="card-text">Comprehensive coverage including collision, liability, and personal injury protection. Drive with confidence knowing you're protected.</p>
+                                <a href="#contact" class="btn btn-outline-primary">Get a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-home fa-3x mb-3 text-primary"></i>
+                                <h5 class="card-title">Home Insurance</h5>
+                                <p class="card-text">Protect your home and belongings with our comprehensive coverage options. Including natural disasters and theft protection.</p>
+                                <a href="#contact" class="btn btn-outline-primary">Get a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-heart fa-3x mb-3 text-primary"></i>
+                                <h5 class="card-title">Life Insurance</h5>
+                                <p class="card-text">Secure your family's future with our flexible life insurance plans. Term and whole life options available.</p>
+                                <a href="#contact" class="btn btn-outline-primary">Get a Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>Insurance Co. has been providing reliable insurance services for over 20 years. Our mission is to offer the best coverage options to protect what matters most to you.</p>
+            </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p>"Insurance Co. provided excellent service and great coverage options."</p>
+                            <h5>- John Doe</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p>"I am very satisfied with the customer support and the policies offered."</p>
+                            <h5>- Jane Smith</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="testimonial">
+                            <p>"Highly recommend Insurance Co. for their professionalism and reliability."</p>
+                            <h5>- Robert Brown</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Feel free to reach out to us for any inquiries or support.</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-4">
+        <div class="container">
+            <div class="footer-links mb-3">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="text-center mb-0">© 2025 Insurance Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
